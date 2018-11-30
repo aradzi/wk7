@@ -1,6 +1,6 @@
 document
     .querySelector(".request-complement")
-    .addEventListener('click', function() {
+    .addEventListener("click", function() {
         fetch("/complement")
             .then(function(res) {
                 return res.json()
